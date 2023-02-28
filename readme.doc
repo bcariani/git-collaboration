@@ -1,3 +1,7 @@
 Task 1: Fast-forward merges
 neat_branch merge: Neat_branch is two commits ahead of develop. When we merge neat_branch into develop, we simply move where develop is pointing forward to match where neat_branch is pointing. 
 messy_branch merge: Same logic here as neat_branch. Messy_branch is two commits ahead of develop. When we merge messy_branch into develop, we simply move where develop is pointing forward to match where neat_branch is pointing. 
+
+Task 2: Conflicts
+b.) Both develop and conflict_branch change the text inside the <p> tags on line 9 of index.html. Conflict_branch changes the text to "Hello, World!" and commits the changes, and develop changes the text to "Hello!" and commits the changes. When we merge these two branches, we get a conflict.
+c.) Develop changes the text inside the <p> tags on line 9 of index.html and commits the changes. Conflict_branch adds a <div> to line 10, inserts some text, and commits the changes. This merge will not cause a conflict. 
