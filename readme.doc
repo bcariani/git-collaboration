@@ -1,0 +1,2 @@
+Task 1:
+These are fast forward merges. Neat_branch is two commits ahead of develop. When we merge neat_branch into develop, we simply move where develop is pointing forward to match where neat_branch is pointing. 
